@@ -4,12 +4,17 @@
 ## Introduction
 This simple Employee Management System is a web-based application that enables users to manage employee details. It allows users to add new employee records, view them in a tabulated format, edit them, and even clear all records when needed.
 
-Features
-Add Employee: Add new employee records with details such as name, age, address, title, and salary.
-View Employees: View all added employee records in a table format.
-Edit Employee: Edit existing employee records by clicking the 'Edit' button next to each record.
-Clear Records: Ability to clear all existing records from the display table.
-Prerequisites
+## Features
+#### Add Employee: 
+Add new employee records with details such as name, age, address, title, and salary.
+#### View Employees: 
+View all added employee records in a table format.
+#### Edit Employee: 
+Edit existing employee records by clicking the 'Edit' button next to each record.
+#### Clear Records: 
+Ability to clear all existing records from the display table.
+
+## Prerequisites
 PHP 7.4 or above
 MySQL 5.7 or above
 A web server (e.g., Apache, Nginx)
