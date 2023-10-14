@@ -20,7 +20,7 @@ A basic web application designed to manage employee data, such as adding new rec
 
 ### 1. Clone the Repository
 
-```shell
+
 git clone [YOUR_REPOSITORY_LINK] employee-management-system
 cd employee-management-system
 
@@ -28,8 +28,17 @@ cd employee-management-system
 # 2. Database Configuration
 
 - Update config.php with your database credentials.
-`
-define('DB_SERVER', 'your_database_server');
+- 
+`define('DB_SERVER', 'your_database_server');
 define('DB_USERNAME', 'your_username');
 define('DB_PASSWORD', 'your_password');
 define('DB_NAME', 'your_database_name');`
+
+# 3. Deploy
+run 
+`sudo dnf install -y httpd php php-mysqli mariadb105
+sudo systemctl start httpd
+sudo systemctl enable httpd
+`
+
+Web Server: Transfer the project files to your web server directory and visit the appropriate URL in your browser.
