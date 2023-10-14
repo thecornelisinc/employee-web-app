@@ -36,9 +36,9 @@ define('DB_NAME', 'your_database_name');`
 
 # 3. Deploy
 run 
-`sudo dnf install -y httpd php php-mysqli mariadb105
-sudo systemctl start httpd
-sudo systemctl enable httpd
+`sudo dnf install -y httpd php php-mysqli mariadb105`
+`sudo systemctl start httpd`
+`sudo systemctl enable httpd`
 `
 
 Web Server: Transfer the project files to your web server directory and visit the appropriate URL in your browser.
