@@ -34,11 +34,24 @@ define('DB_USERNAME', 'your_username');
 define('DB_PASSWORD', 'your_password');
 define('DB_NAME', 'your_database_name');`
 
+
 # 3. Deploy
 run 
 `sudo dnf install -y httpd php php-mysqli mariadb105`
 `sudo systemctl start httpd`
 `sudo systemctl enable httpd`
 `
+
+connect to the database and create an DB called EmployeeDB
+Create a table called employees with the below schema
+
+CREATE TABLE employees (
+    id int NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    name varchar(255),
+    age int,
+    address varchar(90),
+    title varchar(40),
+    salary int 
+);
 
 Web Server: Transfer the project files to your web server directory and visit the appropriate URL in your browser.
