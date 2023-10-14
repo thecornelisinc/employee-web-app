@@ -1,6 +1,7 @@
 
-Employee Management System
-Introduction
+#Employee Management System
+
+##Introduction
 This simple Employee Management System is a web-based application that enables users to manage employee details. It allows users to add new employee records, view them in a tabulated format, edit them, and even clear all records when needed.
 
 Features
